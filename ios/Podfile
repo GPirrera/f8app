@@ -8,6 +8,7 @@ target 'F82017' do
   # Pods for F82017
   pod 'FBSDKShareKit'
   pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
 
   target 'F82017-tvOSTests' do
     inherit! :search_paths
