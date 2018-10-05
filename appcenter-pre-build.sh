@@ -1,6 +1,9 @@
 #!/bin/bash
+set -ex
 brew update
-brew upgrade node
+brew uninstall node@6
+brew uninstall node@8
+brew install node
 brew install watchman
 npm install -g react-native-cli
 npm install -g react-native-git-upgrade
