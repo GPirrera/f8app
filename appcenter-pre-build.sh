@@ -5,7 +5,6 @@ npm install -g react-native-cli
 npm install -g react-native-git-upgrade
 cd "${APPCENTER_SOURCE_DIRECTORY}/ios"
 react-native-git-upgrade
-cd "${APPCENTER_SOURCE_DIRECTORY}"
 npm install
 cd "${APPCENTER_SOURCE_DIRECTORY}/ios"
 pod install
