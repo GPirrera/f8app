@@ -35,10 +35,6 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* F82017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* F82017Tests.m */; };
-		3009A9271DF88122006B5D62 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9231DF88122006B5D62 /* Bolts.framework */; };
-		3009A9281DF88122006B5D62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */; };
-		3009A9291DF88122006B5D62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */; };
-		3009A92A1DF88122006B5D62 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */; };
 		3035251A1E4BFD4E0003A60D /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525171E4BFD4E0003A60D /* launchscreen.png */; };
 		3035251B1E4BFD4E0003A60D /* launchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525181E4BFD4E0003A60D /* launchscreen@2x.png */; };
 		3035251C1E4BFD4E0003A60D /* launchscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525191E4BFD4E0003A60D /* launchscreen@3x.png */; };
@@ -277,6 +273,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		840727A921672A7400E50FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B177E8AB114A5C9AE0BF0C /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -302,10 +305,6 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* F82017-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F82017-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* F82017-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F82017-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3009A9231DF88122006B5D62 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
-		3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		303525171E4BFD4E0003A60D /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
 		303525181E4BFD4E0003A60D /* launchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchscreen@2x.png"; sourceTree = "<group>"; };
 		303525191E4BFD4E0003A60D /* launchscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchscreen@3x.png"; sourceTree = "<group>"; };
@@ -341,8 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				308E35A01E8C2A5E00CAC09E /* libRCTPushNotification.a in Frameworks */,
-				3009A9291DF88122006B5D62 /* FBSDKLoginKit.framework in Frameworks */,
-				3009A9271DF88122006B5D62 /* Bolts.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
@@ -355,8 +352,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				3009A92A1DF88122006B5D62 /* FBSDKShareKit.framework in Frameworks */,
-				3009A9281DF88122006B5D62 /* FBSDKCoreKit.framework in Frameworks */,
 				B2C3247ED20945EDAAD12F70 /* libRCTFBSDK.a in Frameworks */,
 				FC554BF677604211A694CB54 /* libBVLinearGradient.a in Frameworks */,
 				0186555E1614488AAE4A6B43 /* libRNVideoPlayer.a in Frameworks */,
@@ -540,6 +535,7 @@
 			isa = PBXGroup;
 			children = (
 				308E376F1E8D63B000CAC09E /* libBVLinearGradient.a */,
+				840727AA21672A7400E50FBB /* libBVLinearGradient.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -569,10 +565,6 @@
 				30391C671E48DF4D005B8B86 /* libsqlite3.0.tbd */,
 				30391C651E48DF3F005B8B86 /* SystemConfiguration.framework */,
 				30391C631E48DF35005B8B86 /* CoreData.framework */,
-				3009A9231DF88122006B5D62 /* Bolts.framework */,
-				3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */,
-				3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */,
-				3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1040,6 +1032,13 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		840727AA21672A7400E50FBB /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 840727A921672A7400E50FBB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
