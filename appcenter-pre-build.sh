@@ -3,8 +3,8 @@ set -ex
 cd "${APPCENTER_SOURCE_DIRECTORY}"
 printf "==========SOURCES DIRECTORY: ${PWD}=============="
 react-native-git-upgrade
-npm install babel-core --verbose
-npm install react-native-cli --verbose
+#npm install babel-core --verbose
+#npm install react-native-cli --verbose
 #cd "${APPCENTER_SOURCE_DIRECTORY}"
 #npm install --verbose
 cd "${APPCENTER_SOURCE_DIRECTORY}/ios"
