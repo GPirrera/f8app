@@ -4,7 +4,6 @@ brew update
 brew uninstall node@6
 brew install node
 brew install watchman
-npm install -g react-native-cli
 npm install -g react-native-git-upgrade
 #cd "${APPCENTER_SOURCE_DIRECTORY}"
 #npm install --verbose
