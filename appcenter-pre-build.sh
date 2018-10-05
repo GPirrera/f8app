@@ -3,7 +3,9 @@ brew install node
 brew install watchman
 npm install -g react-native-cli
 npm install -g react-native-git-upgrade
-cd "${APPCENTER_SOURCE_DIRECTORY}/ios"
+cd "${APPCENTER_SOURCE_DIRECTORY}"
+printf "==========SOURCES DIRECTORY: ${PWD}=============="
+
 react-native-git-upgrade
 npm install
 cd "${APPCENTER_SOURCE_DIRECTORY}/ios"
