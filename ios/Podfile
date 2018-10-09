@@ -17,7 +17,7 @@ target 'F82017' do
   target 'F82017-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+    #pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
   end
 
