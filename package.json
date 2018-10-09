@@ -14,6 +14,9 @@
     "relay": "relay-compiler --src ./js --schema ./server/graphql/src/schema/__generated__/schema.graphql"
   },
   "dependencies": {
+    "appcenter": "^1.8.1",
+    "appcenter-analytics": "^1.8.1",
+    "appcenter-crashes": "^1.8.1",
     "crc32": "^0.2.2",
     "idx": "^1.5.0",
     "moment-timezone": "^0.5.11",
@@ -65,6 +68,11 @@
     ],
     "transform": {
       "^.+\\.js$": "node_modules/babel-jest"
-    }
+    },
+    "setupFiles": [
+      "<rootDir>/node_modules/appcenter/test/AppCenterMock.js",
+      "<rootDir>/node_modules/appcenter-analytics/test/AppCenterAnalyticsMock.js",
+      "<rootDir>/node_modules/appcenter-crashes/test/AppCenterCrashesMock.js"
+    ]
   }
 }
