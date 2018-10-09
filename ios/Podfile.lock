@@ -12,17 +12,23 @@ PODS:
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
+  - BVLinearGradient (2.4.2):
+    - React
   - FBSDKCoreKit (4.37.0):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.37.0):
     - FBSDKCoreKit
   - FBSDKShareKit (4.37.0):
     - FBSDKCoreKit (~> 4.37.0)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
 
 DEPENDENCIES:
   - AppCenter/Analytics (~> 1.9.0)
   - AppCenter/Crashes (~> 1.9.0)
   - AppCenterReactNativeShared (~> 1.8.1)
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
@@ -35,15 +41,22 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
+    - React
+
+EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: "../node_modules/react-native-linear-gradient"
 
 SPEC CHECKSUMS:
   AppCenter: 3cf7b9387549e9703dab068793e404013e8c0cc1
   AppCenterReactNativeShared: 3d804f256b964e040d902d1a215d7866fedae55d
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  BVLinearGradient: 6d8909e3fc6b089defa4b89d967441fa6827a2ee
   FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
   FBSDKLoginKit: 2f7249686d1e30ce8a5ef5400eedf50b3e3df332
   FBSDKShareKit: 52e0083222c38e930eb6878007478326599195c3
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
 
-PODFILE CHECKSUM: d806300099a744c7c8bbaca90f2b8264ff86b3bf
+PODFILE CHECKSUM: 0c63f2594858ae799ca921641cbb44ce44aca953
 
 COCOAPODS: 1.5.3
